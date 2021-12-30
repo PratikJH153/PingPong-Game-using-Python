@@ -14,9 +14,9 @@ class Paddle(Turtle):
     def up(self):
         if self.ycor() < 240:
             previous_y = self.ycor()
-            self.sety(previous_y + 15)
+            self.sety(previous_y + 20)
 
     def down(self):
         if self.ycor() > -240:
             previous_y = self.ycor()
-            self.sety(previous_y - 15)
+            self.sety(previous_y - 20)
